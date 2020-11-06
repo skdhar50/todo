@@ -31,7 +31,8 @@ class TodoCreateRequest extends FormRequest
     public function messages()
     {
         return [
-            'title.max' => 'The title should not be greater than 255 characters!'
+            'title.max' => 'The title should not be greater than 255 characters!',
+            'title.required' => 'Please Enter a Title!'
         ];
     }
 }
